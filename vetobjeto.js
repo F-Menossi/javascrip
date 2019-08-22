@@ -1,6 +1,7 @@
 function funcao(){
-    var = objeto{}
+    var vet = []
     for (var i=0;i<5; i++){
+        var objeto = {}
         objeto.codigo = Number(prompt("Informe código do produto: "))
         objeto.nome = pompt("Informe nome do produto: ")
         objeto.qtde = Number(prompt("Informe quantidade do produto: "))
