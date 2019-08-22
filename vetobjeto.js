@@ -7,8 +7,11 @@ function funcao(){
         objeto.qtde = Number(prompt("Informe quantidade do produto: "))
         objeto.preco = Number(prompt("Informe preço do produto: "))
         vet.push(objeto)
-        alert("Produto criado com sucesso " + objeto.qtde)
+        alert("Produto criado com sucesso.")
     }
     var estoque = 0
-    for(var i=0;i<5;i++)
+    for(var i=0;i<5;i++){
+       estoque = estoque + vet[i].qtde
+    }
+    alert(estoque + " produtos no estoque.")
 }
