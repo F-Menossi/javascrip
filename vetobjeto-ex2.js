@@ -18,10 +18,8 @@ function funcao(){
         if (vet[i].salario>maior){
             maior = vet[i].salario;
         }
-        if (vet[i].salario>1000){
-            if (vet[i].sexo="f"){
-                mulhermdm = mulhermdm + 1;
-            }
+        if ((vet[i].salario>1000) && (vet[i].sexo='f')){
+                mulhermdm++;
         }
     }
     alert("A média de salário da população é R$" + somasalario/3);
